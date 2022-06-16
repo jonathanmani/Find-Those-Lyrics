@@ -1,7 +1,7 @@
 # My Pocket Dictionary
-A minimal dictionary application using the Merriam Webster Dictionary API which can be found here: https://dictionaryapi.com/products/api-collegiate-dictionary
-
 Fully Hosted Working app can be found here: https://mypocketdictionary.netlify.app
+
+A minimal dictionary application using the Merriam Webster Dictionary API which can be found here: https://dictionaryapi.com/products/api-collegiate-dictionary
 
 ![Dictionary Hello](Dictionary.png "Dictionary")
 
@@ -13,8 +13,8 @@ API calls were gathered using the fetch API and data parsed using Javascript. Fo
 ## Optimizations
 Deeply embedded data was stored in variables for easy access
 
--- Future Implementations
-    - Audio pronounciation guide
+-- Future Implementations  
+    - Audio pronounciation guide  
     - functionality to handle user typos
 
 ## Lessons Learned
