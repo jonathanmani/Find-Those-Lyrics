@@ -1,5 +1,7 @@
-# Dictionary
+# My Pocket Dictionary
 A minimal dictionary application using the Merriam Webster Dictionary API which can be found here: https://dictionaryapi.com/products/api-collegiate-dictionary
+
+Fully Hosted Working app can be found here: https://mypocketdictionary.netlify.app
 
 ![Dictionary Hello](Dictionary.png "Dictionary")
 
