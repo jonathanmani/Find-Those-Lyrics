@@ -1,0 +1,26 @@
+{
+  "name": "dictionary",
+  "version": "1.0.0",
+  "description": "Fully Hosted Working app can be found here: https://mypocketdictionary.netlify.app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanmani/Dictionary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanmani/Dictionary/issues"
+  },
+  "homepage": "https://github.com/jonathanmani/Dictionary#readme",
+  "dependencies": {
+    "daisyui": "^2.31.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Pocket Dictionary</title>
+  </head>
+  <body>
+    <div class="navbar-center bg-primary text-primary-content pt-7 pb-5">
+      <p class="text-3xl text-center">My Pocket Dictionary</p>
+      <p class="text-center text-sm">
+        Data provided by Merriam Webster Dictionary API
+      </p>
+    </div>
+    <section class="w-1/4 m-auto mt-5 flex flex-col">
+      <input
+        type="text"
+        placeholder="Type here"
+        id="textField"
+        class="input input-bordered input-primary w-full max-w-xs"
+      />
+      <button
+        class="btn btn-secondary mt-3"
+        value="Search"
+        id="search"
+        onclick="getDefinition()"
+      >
+        Search
+      </button>
+    </section>
+
+    <div class="card bg-base-100 w-2/4 m-auto mt-5">
+      <div class="card-body items-center text-center">
+        <h2 class="word text-xl"></h2>
+        <h3 class="def01 text-lg"></h3>
+        <h3 class="def02 text-lg"></h3>
+        <h4 class="sentence01 text-base"></h4>
+        <h4 class="sentence02 text-base"></h4>
+      </div>
+    </div>
+
+    <script src="../main.js"></script>
+  </body>
+</html>
