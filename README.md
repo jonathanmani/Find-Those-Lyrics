@@ -1,21 +1,29 @@
 # My Pocket Dictionary
+
+A Pocket Dictionary that gives you the main definitions of a word. Site it fully responsive and using Merriam-Webster API
+
 Fully Hosted Working app can be found here: https://mypocketdictionary.netlify.app
 
-A minimal dictionary application using the Merriam Webster Dictionary API which can be found here: https://dictionaryapi.com/products/api-collegiate-dictionary
-
-![Dictionary Hello](Dictionary.png "Dictionary")
+![Dictionary](Dictionary.png "Dictionary")
 
 ## How It's Made
-Tech: HTML, CSS, JavaScript
 
-API calls were gathered using the fetch API and data parsed using Javascript. Font style is Special Elite taken from Google Fonts
+Tech: HTML, CSS, JavaScript, API
+
+I made an API call to the Merriam Webster API to retrieve the definitions. Since the API is quite a dense object, I loaded data into variable and then passed these variables into the DOM. TailwindCSS and DaisyUI were used as styling components
 
 ## Optimizations
-Deeply embedded data was stored in variables for easy access
 
--- Future Implementations  
-    - Audio pronounciation guide  
-    - functionality to handle user typos
+I stored deeply embedded data in variables for easy access. For future implementations, I plan to include functionality to handle user typos.
 
 ## Lessons Learned
+
 Some APIs have a lot of data and it can become cumbersome to search for specifics. Always read API documentation and implement easy to read variables in your code for future readability
+
+## Check Out My Other Work
+
+[Pomodoro Task Tracker](https://github.com/jonathanmani/Pomodoro-Task-Tracker) - Create tasks, set your priority and record pomodoro sessions with this all-in-one task tracker
+
+[DailyUI](https://github.com/jonathanmani/DailyUI) - A collection of Front End designs made using TailwindCss and React
+
+[InstaPrep](https://github.com/jonathanmani/InstaPrep) - Your meals should be an accident. Plan them in minutes with InstaPrep
